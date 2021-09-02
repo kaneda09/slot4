@@ -1,3 +1,4 @@
+  
 body {
     background: white;
     /* background: white; */
@@ -17,17 +18,20 @@ body {
     justify-content: space-between
   }
   
-  .title img {
+  .TitleCoin img {
     width: 400px;
     height: 74px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block; 
+    margin-left: 280px;
+    margin-right: 400px;
   }
 
-  .coinHyoji {
-    width: 80px;
-    height: 20px;
+  .TitleCoin {
+    width: 100px;
+    height: 50px;
+    font-size: 22px; 
+    margin-top: -15px;
+    margin-left:150px;
   }
   
   .coinlabel {
