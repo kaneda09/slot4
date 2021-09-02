@@ -1,3 +1,5 @@
+'use strict';
+
 {
   // -------------------------------------------------------------------------------
   // 以下、クラス定義
@@ -1182,23 +1184,31 @@
 
   // スピンレバーオン
   spin.addEventListener('click',() =>{
+    var audio = new Audio("se/gakon.wav");
+    audio.play();
     spinStart();
   });
 
   // 左ストップボタンオン処理
   stop1.addEventListener('click',() =>{
+    var audio = new Audio("se/kyuin.mp3");
+    audio.play();
     stop(stop1,panel_1,1);
   });
   
 
   // 中ストップボタンオン処理
   stop2.addEventListener('click',() =>{
+    var audio = new Audio("se/kyuin(1).mp3");
+    audio.play();
     stop(stop2,panel_2,2);
   });
   
   
   // 右ストップボタンオン処理
   stop3.addEventListener('click',() =>{
+    var audio = new Audio("se/kyuin(2).mp3");
+    audio.play();
     stop(stop3,panel_3,3);
   });
 
